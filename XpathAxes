@@ -1,0 +1,26 @@
+● “- ” for Adults
+ //div[@class = 'qty-box d-flex align-items-center justify-content-between']/child::div[@class = 'qtyBtn d-flex align-items-center']/descendant::i[@class = 'la la-minus']
+
+● “+” for Adults
+//div[@class = 'qty-box d-flex align-items-center justify-content-between']/child::div[@class = 'qtyBtn d-flex align-items-center']/descendant::i[@class = 'la la-plus']
+
+● Check in - Calendar Icon:
+ //div[@class = 'row g-0 items-center']/descendant-or-self::span[@class = 'la la-calendar form-icon'][1]
+
+● “-“ for Adults
+ RELATIVE PATH: //*[@id="hotels-search"]/div/div/div[3]/div/div/div/div/div[2]/div/div/div[1]/i/following::input
+ ABOLUTE PATH: /html/body/section[1]/div/div/div/div/div[2]/div/div[1]/form/div/div/div[3]/div/div/div/div/div[2]/div/div/div[1]/i/following::input
+
+● “+” for Adults
+ RELATIVE PATH: //*[@id="hotels-search"]/div/div/div[3]/div/div/div/div/div[2]/div/div/div[2]/i/parent::div
+ ABSOLUTE PATH: /html/body/section[1]/div/div/div/div/div[2]/div/div[1]/form/div/div/div[3]/div/div/div/div/div[2]/div/div/div[2]/i/parent::div
+
+ ● “+” for Child
+ ANCESTOR:
+
+ RELATIVE PATH: //*[@id="hotels-search"]/div/div/div[3]/div/div/div/div/div[3]/div/div/div[2]/i/ancestor::div
+ ABSOLUTE PATH: /html/body/section[1]/div/div/div/div/div[2]/div/div[1]/form/div/div/div[3]/div/div/div/div/div[3]/div/div/div[2]/i/ancestor/div
+
+ ● FOLLOWING:
+ RELATIVE PATH : //*[@id="hotels-search"]/div/div/div[3]/div/div/div/div/div[3]/div/div/div[1]/i/following::input#qtyInput_hotels
+ ABSOLUTE PATH : /html/body/section[1]/section/div/div/form/div/div/div[3]/div/div/div/div/div[3]/div/div/div[1]/i

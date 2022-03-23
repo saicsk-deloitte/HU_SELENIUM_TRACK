@@ -1,0 +1,21 @@
+RELATIVE XPATH's::
+
+* PHP TRAVELS LOGO Xpath://*[@id="fadein"]/header/div[2]/div/div/div/div/div[1]/a/img
+* Home             Xpath://*[@id="fadein"]/header/div[2]/div/div/div/div/div[2]/nav/ul/li[1]/a
+* Flights           Xpath: //*[@id="fadein"]/header/div[2]/div/div/div/div/div[2]/nav/ul/li[3]/a
+* Tours             //*[@id="fadein"]/header/div[2]/div/div/div/div/div[2]/nav/ul/li[4]/a
+* Company           Xpath:\\a[@href()='company']
+* Signup Button    Xpath:\\a[@href()= https://www.phptravels.net/signup]
+* Login Button     Xpath:\\a[@href()= https://www.phptravels.net/login']
+* Agents DropDown    Xpath:\\button[@id()='agents']
+---------------------------------------------------------------------------------------------
+ABSOLUTE XPATH'S::
+
+LOGO : /html/body/header/div[2]/div/div/div/div/div[1]/a/img
+HOME:    /html/body/header/div[2]/div/div/div/div/div[2]/nav/ul/li[1]/a
+HOTELS: /html/body/header/div[2]/div/div/div/div/div[2]/nav/ul/li[2]/a
+FLIGHTS: /html/body/header/div[2]/div/div/div/div/div[2]/nav/ul/li[3]/a
+TOURS :  /html/body/header/div[2]/div/div/div/div/div[2]/nav/ul/li[4]/a
+SIGN UP : /html/body/header/div[1]/div/div/div[2]/div/div/a[1]
+LOGIN : /html/body/header/div[1]/div/div/div[2]/div/div/a[2]
+AGENTS: /html/body/header/div[1]/div/div/div[2]/div/div/div[4]/div/button

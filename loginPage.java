@@ -22,8 +22,11 @@ public class loginPage {
     {
         driver.findElement(user_name).sendKeys(name);
     }
-    public void setPassword(String password1)
-    {
+    public void setPassword(String password1) {
         driver.findElement(password).sendKeys(password1);
+    }
+    public void clicklogin(){
+    WebElement login =driver.findElement(button);
+    login.click();
     }
 }
